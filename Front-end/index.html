@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Filosofia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Detetive De Fake News</h1>
+    </header>
+    
+    <nav>
+        <a href="#sobre" >Sobre</a>                                                                                                                        
+        <a href="#dicas_uso">Dicas de uso</a>  
+        <a href="#validar">Validar Informação</a>                                                                                                                     
+        <a href="#desenvolvedores">Desenvolvedores</a>                                                                                                                        
+    </nav>
+    
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>Tendo em vista a influência que a Fake News são capazes de realizar na política, desenvolvemos esse site com intuito de inibir esses acontecimentos, o principal instuito do site é você inserir sua notícia e ele dizer se ela é verdadeira ou falsa.</p>
+        </section>
+        
+        <section class="dicas_uso" id="dicas_uso">
+            <h2>Dicas de Uso</h2>
+            <div class="dicas">
+                <div class="dica">
+                    <p>O uso do nosso site serve como intuito de verificar um link de uma notícia, retornando se é verdadeira ou falsa, de acordo com o que inserir na validação.</p>
+                </div>
+    
+                <div class="dica">
+                    <p>A validação funcionará de tal forma que com poucos passos você irar saber se uma notícia que estar em alta realmente é veritica.</p>
+                </div>
+    
+                <div class="dica">
+                    <p>Mas é bom lembrar que este site serve para uma busca rápida e ter uma noção de fontes que poderam ser auxiliadores em pesquisas mais aprofundadas, de determinadas notícias.</p>
+                </div>
+    
+            </div>
+        </section>
+        
+        <section id="validar">
+            <h2>Validar Informação</h2>
+            <label for="url"><strong>Insira a descrição da notícia para verificar Fake News:</strong></label>
+            <input type="text" id="noticia" name="noticia">
+            <button onclick="verificarNoticia()"><b>Verificar notícia</b></button>
+        </section>
+    
+        
+        <section class="desenvolvedores" id="desenvolvedores">
+            <h2>Desenvolvedores</h2>
+            <div class="devs">
+                <div class="dev">
+                    <h3>Lucas Ribeiro</h3>
+                    <p>Aluno de T.I (Técnico em informática), morador de Nova Marabá, programador Front-End.</p>
+                </div>
+    
+                <div class="dev">
+                    <h3>Isaac Moreira</h3>
+                    <p>Aluno de T.I (Técnico em informática), morador de Nova Marabá, programador Front-End.</p>
+                </div>
+    
+                <div class="dev">
+                    <h3>Isaias Brito</h3>
+                    <p>Aluno de T.I (Técnico em informática), morador de Morada Nova, programador Back-End.</p>
+                </div>
+
+                <div class="dev">
+                    <h3>Edson Braga</h3>
+                    <p>Aluno de T.I (Técnico em informática), morador de Nova Marabá, Testador.</p>
+                </div>
+
+                <div class="dev">
+                    <h3>Diogo Alvino</h3>
+                    <p>Orientador</p>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+    <footer> 
+        <a href="">© Todos os direitos reservados</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
