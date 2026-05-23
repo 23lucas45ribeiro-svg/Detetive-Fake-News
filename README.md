@@ -45,7 +45,7 @@ A aplicação é puramente **Client-Side**, dispensando servidores complexos par
 
 1. Clone o repositório para a sua máquina:
    ```bash
-   git clone [https://github.com/seu-usuario/detetive-fake-news.git](https://github.com/seu-usuario/detetive-fake-news.git)
+   git clone [https://github.com/23lucas45ribeiro-svg/detetive-fake-news.git](https://github.com/23lucas45ribeiro-svg/detetive-fake-news.git)
 
 2.Acesse o diretório do projeto.
 
