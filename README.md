@@ -6,6 +6,10 @@
 
 Este é um projeto acadêmico interdisciplinar, focado na disciplina de Filosofia, desenvolvido para combater o problema atual da desinformação na internet.Tendo em vista a forte influência que as *Fake News* exercem na política e na sociedade, o **Detetive de Fake News** atua como uma ferramenta de checagem inicial para inibir a propagação de inverdades.
 
+|Abaixo o link do site na web|
+
+Site: https://23lucas45ribeiro-svg.github.io/Detetive-Fake-News/
+
 O objetivo principal do site é permitir que o usuário insira uma notícia e, através de uma validação em um banco de dados interno, descubra se ela é **Verdadeira** ou **Falsa**.
 
 ---
